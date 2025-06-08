@@ -13,7 +13,7 @@ public class MainUIManager : MonoBehaviour
     public static MainUIManager Instance;
     public TMP_InputField NameInputField;
     public string PlayerName = "";
-    public string BestPlayerName = "";
+    public string BestPlayerName;
     public int BestScore = 0;
 
     class SaveData
